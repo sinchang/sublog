@@ -3,7 +3,7 @@
 > Build a static blog website from GitHub Issues
 
 ## Preview
-![](https://ooo.0o0.ooo/2017/03/24/58d4e5f81fb25.png)
+![](https://ooo.0o0.ooo/2017/03/24/58d506210d0eb.jpg)
 [Live Demo](http://sublog.sinchang.me)
 
 ## Use
