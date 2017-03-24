@@ -235,7 +235,7 @@ pre .xml .cdata {
   border-bottom: 3px solid transparent;
 }
 .blog-nav:last-child {
-  right: 0;
+  right: 30px;
 }
 .blog-nav:hover {
   color: #333;

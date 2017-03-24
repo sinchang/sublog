@@ -45,7 +45,7 @@
   .main h2 a:hover {
     color: #f66;
   }
-  .main h3 {
+  .main .created-at {
     font-size: 11px;
     position: static;
     margin-bottom: 10px;
