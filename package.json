@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "sublog",
+  "description": "My pioneering Vue app",
+  "version": "0.0.0",
+  "repository": {},
+  "scripts": {
+    "test": "echo lol",
+    "lint": "vbuild --eslint",
+    "dev": "vbuild -d",
+    "build": "vbuild",
+    "deploy": "./deploy.sh"
+  },
+  "devDependencies": {
+    "vbuild": "^6.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "marked": "^0.3.6",
+    "nprogress": "^0.2.0",
+    "vue-moment": "^2.0.2",
+    "vue-router": "^2.3.0"
+  }
+}
