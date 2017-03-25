@@ -4,7 +4,6 @@ export default {
   title: 'fouber blog',
   token: '', // split your access_token with #
   perPage: '15',
-  theme: 'github',
   social: [{
     name: 'github',
     url: ''
