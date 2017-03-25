@@ -2,7 +2,7 @@ export default {
   repo: 'blog', // required
   owner: 'fouber', // required
   title: 'fouber blog',
-  token: '', // split your access_token with #
+  token: '', // required. split your access_token with #, create in https://github.com/settings/tokens
   perPage: '15',
   social: [{
     name: 'github',
