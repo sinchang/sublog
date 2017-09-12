@@ -7,11 +7,11 @@
 [Live Demo](http://sublog.sinchang.me)
 
 ## Use
-1、 `git clone https://github.com/sinchang/sublog.git`
+1. `git clone https://github.com/sinchang/sublog.git`
 
-2、`cd sublog && npm install`
+2. `cd sublog && npm install`
 
-3、 config
+3. config
 - change website title in `index.html`
 - change CNAME file in `static/CNAME`
 - other config in `src/config`
