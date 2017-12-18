@@ -14,11 +14,11 @@
 </template>
 
 <script>
-import { ajax, getIndexApi } from "../util.js"
-import Pager from "./Pager"
+import { ajax, getIndexApi } from '../util.js'
+import Pager from './Pager'
 
 export default {
-  name: "index",
+  name: 'index',
   data() {
     return {
       issues: [],
