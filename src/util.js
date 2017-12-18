@@ -4,16 +4,16 @@ import config from './config.js'
 
 const token = config.token.split('#').join('')
 
-export const ajax = (url, cb) => {
+export const ajax = (url) => {
   NProgress.inc()
-  axios.get(url)
+  return axios.get(url)
     .then(response => {
-      cb && cb(response)
       NProgress.done()
+      return response
     })
     .catch(error => {
       NProgress.done()
-      console.log(error)
+      return Promise.reject(error)
     })
 }
 

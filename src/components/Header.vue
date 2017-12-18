@@ -4,7 +4,7 @@
       <a href="/">{{title}}</a>
     </div>
     <p class="links">
-      <a :href="item.url" v-for="item in social" target="_blank">
+      <a :href="item.url" v-for="item in social" :key="item.name" target="_blank">
         <i :class="`fa fa-${item.name}`"></i>
       </a>
     </p>

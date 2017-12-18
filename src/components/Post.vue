@@ -27,9 +27,11 @@
       fetchSingleIssue() {
         this.issue = {}
         this.body = ''
-        ajax(getPostApi(this.$route.params.id), res => {
+        ajax(getPostApi(this.$route.params.id)).then(res => {
           this.issue = res.data
           this.body = marked(res.data.body)
+        }).catch(err => {
+          alert(err.response.data.message)
         })
       }
     }

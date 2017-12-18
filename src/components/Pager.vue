@@ -14,9 +14,6 @@
       }
     },
     props: {
-      onChange: {
-        type: Function
-      },
       prevVisible: {
         type: Boolean
       },
@@ -27,12 +24,12 @@
     methods: {
       prev() {
         this.page--
-        this.onChange(this.page)
+        this.$emit('change', this.page)
         window.scroll(0, 0)
       },
       next() {
         this.page++
-        this.onChange(this.page)
+        this.$emit('change', this.page)
         window.scroll(0, 0)
       }
     }
